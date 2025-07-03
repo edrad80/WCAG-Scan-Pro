@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WCAG Scan Pro</title>
+  <style>
+    /* Simple styling that always works */
+    body {
+      width: 200px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    #status, #loading {
+      padding: 10px;
+      text-align: center;
+    }
+    #loading {
+      display: none; /* Hidden by default */
+    }
+  </style>
+</head>
+<body>
+  <!-- These elements MUST exist for the JS to work -->
+  <div id="status">Click to scan current page</div>
+  <div id="loading">
+    <div>Scanning page...</div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

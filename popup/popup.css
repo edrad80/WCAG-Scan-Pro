@@ -1,0 +1,25 @@
+body {
+  width: 300px;
+  padding: 15px;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background-color: #f8fafc;
+}
+
+.pro-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.pro-badge {
+  background: linear-gradient(135deg, #4a6bdf 0%, #8e54e9 100%);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* ... (keep rest of the CSS from previous popup.css) ... */
