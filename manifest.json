@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "WCAG Scan Pro",
+  "version": "2.0",
+  "description": "Professional WCAG compliance scanner",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [{
+    "resources": ["report/report.html"],
+    "matches": ["<all_urls>"]
+  }]
+}
