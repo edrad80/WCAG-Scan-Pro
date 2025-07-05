@@ -25,4 +25,4 @@
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/your-username/wcag-scan-pro.git
+   git clone https://github.com/edrad80/wcag-scan-pro.git
